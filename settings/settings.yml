@@ -2,6 +2,7 @@
 :sources: 
   Product: 
     :poll_interval: 300
+    :partition_type: app
  
 :test: 
   :redis: localhost:6379
@@ -18,3 +19,4 @@
   :licensefile: settings/license.key
   :syncserver: http://localhost:9292/application/
   :bulk_sync_poll_interval: 3600
+  :blackberry_bulk_sync: true
