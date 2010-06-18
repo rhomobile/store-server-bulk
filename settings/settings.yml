@@ -19,4 +19,5 @@
   :bulk_sync_poll_interval: 3600
   :licensefile: settings/license.key
   :syncserver: http://localhost:9292/application/
-  :redis: localhost:6379
+  :bulk_sync_poll_interval: 3600
+  :blackberry_bulk_sync: true
