@@ -2,8 +2,14 @@
 :sources: 
   Product: 
     :poll_interval: 300
+    :queue: product
+    :priority: 1
+    :partition_type: app
   Customer: 
     :poll_interval: 300
+    :queue: customer
+    :priority: 5
+    :partition_type: app
  
 :test: 
   :bulk_sync_poll_interval: 3600
